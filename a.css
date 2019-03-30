@@ -14,7 +14,7 @@ a{
     clear: both;
 }
 .topNavBar{
-    padding: 30px 16px 30px 16px;
+    padding: 20px 16px 20px 16px;
 }
 .topNavBar nav{
     float: right;
@@ -58,7 +58,7 @@ a{
     padding-top: 4px;
 }
 .topNavBar .logo .rs{
-    margin-right: 4px;
+    margin-right: 3px;
     color: #e6686a;
 }
 .topNavBar .logo .card{
