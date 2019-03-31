@@ -10,6 +10,9 @@ a{
     margin: 0;
     padding: 0;
 }
+ul, ol{
+    list-style: none;
+}
 .clearfix::after{
     content: '';
     display: block;
@@ -92,6 +95,7 @@ a{
     max-width: 940px;
     margin: 0 auto;
     background-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .userCard .welcome{
@@ -179,3 +183,159 @@ margin: 21px 13px;
     fill: white;
     vertical-align: top;
 }
+body>main{
+    margin-top:-350px;
+}
+
+body>main .dResume{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cdcfd1;
+    border-radius: 10px;
+    background-color:#efefef;
+    margin: 42px 0 ;
+    }
+
+body > main .dResume:hover {
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dResumeOuter{
+    text-align:center;
+
+}
+
+
+
+body > main .intro{
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    font-family: kai;
+    line-height: 1.8;
+    
+}
+
+ .skills{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+section h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+
+
+}
+
+.skills > ol{
+    list-style: none;
+    background-color: #fff;
+    margin: 32px 0;
+    padding: 42px 50px 10px;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}
+.skills > ol > li{
+    float: left;
+    width: 47%;
+    box-sizing: border-box;
+}
+
+.skills > ol > li:nth-child(even){
+    /* background-color: red; */
+    float: right;
+}
+
+.skills > ol > li h3{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+}
+
+.progressBar{
+    height: 5px;
+    background:#fae1e1;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+ 
+}
+.progress{
+    height: 100%;
+    background-color: #e6686a;
+    width: 50%;
+    border-radius: 2px;
+}
+
+section.portfolio {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  section.portfolio > nav{
+    text-align: center;
+  }
+  section.portfolio > nav > ol{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+  section.portfolio > nav > ol > li{
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  section.portfolio > nav > ol > li:first-child{
+    margin-left: 0;
+  
+  }
+  section.portfolio > nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 32px;
+  }
+  section.portfolio > nav .bar{
+    height: 5px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 28px;
+    border-radius: 2px;
+  }
+  section.portfolio > nav .bar-inner{
+    height: 100%;
+    background: #E6686A;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  section.portfolio > nav .bar.state-1 .bar-inner{
+    margin-left: 0;
+    width: 50px;
+  }
+  section.portfolio > nav .bar.state-2 .bar-inner{
+    margin-left: 65px;
+    width: 50px;
+  }
+  section.portfolio > nav .bar.state-3 .bar-inner{
+    margin-left: 140px;
+    width: 96px;
+  }
+
+
+  section.portfolio .works{
+
+    position: relative;
+  }
+  section.portfolio .works > .big,
+  section.portfolio .works > .small{
+    position: absolute;
+  }
